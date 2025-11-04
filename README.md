@@ -1,4 +1,4 @@
-# Lung Transplantation – HEOR Portfolio Script (Synthetic Data)
+# Lung Transplantation – Cost-Utility-Analysis
 
 This R script demonstrates a complete **Health Economics and Outcomes Research (HEOR)** workflow applied to a **synthetic cohort** of lung and heart–lung transplant patients.  
 It was developed for educational and portfolio purposes to illustrate cost–utility analysis using parametric survival modeling.
