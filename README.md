@@ -5,14 +5,14 @@ It was developed for educational and portfolio purposes to illustrate cost–uti
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 The script reproduces the main analytical components of a real-world study performed at *Foch Hospital (France)*, while using **fully simulated data**.  
 It aims to evaluate the **cost-effectiveness** of lung transplantation compared with medical management.
 
 ---
 
-## ⚙️ Workflow Overview
+##  Workflow Overview
 
 1. **Data Simulation**  
    - Generates a synthetic cohort of 631 patients.  
@@ -32,7 +32,7 @@ It aims to evaluate the **cost-effectiveness** of lung transplantation compared 
 
 ---
 
-## 🧠 Key Methods
+## Key Methods
 
 - **Survival model:** Weibull (scale ≈ 1670 days, shape ≈ 1.36)  
 - **Perspective:** French National Health Insurance  
@@ -41,7 +41,7 @@ It aims to evaluate the **cost-effectiveness** of lung transplantation compared 
 
 ---
 
-## 🧩 How to Run
+##  How to Run
 
 ```r
 # 1. Install dependencies (first time)
