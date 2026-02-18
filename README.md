@@ -1,14 +1,14 @@
 # Lung Transplantation – Cost-Utility-Analysis
 
-This R script demonstrates a complete **Health Economics and Outcomes Research (HEOR)** workflow applied to a **synthetic cohort** of lung and heart–lung transplant patients.  
-It was developed for educational and portfolio purposes to illustrate cost–utility analysis using parametric survival modeling.
+This project demonstrates a full end-to-end Health Economics and Outcomes Research (HEOR) workflow using parametric survival modeling and cost–utility analysis in R.
+
+It replicates the analytical framework of a real-world lung transplantation study conducted at Foch Hospital (France), using a fully simulated cohort for reproducibility.
 
 ---
 
 ##  Objective
 
-The script reproduces the main analytical components of a real-world study performed at *Foch Hospital (France)*, while using **fully simulated data**.  
-It aims to evaluate the **cost-effectiveness** of lung transplantation compared with medical management.
+To evaluate the cost-effectiveness of lung transplantation compared to medical management from the payer perspective (French National Health Insurance), using survival modeling and QALY estimation.
 
 ---
 
@@ -40,6 +40,46 @@ It aims to evaluate the **cost-effectiveness** of lung transplantation compared 
 - **Sensitivity:** One-way and PSA (1,000 simulations)
 
 ---
+
+## Key Outputs
+
+- Mean and median survival estimates
+
+- Incremental QALYs
+
+- ICER (Cost per QALY gained)
+
+- Tornado diagram
+
+- PSA distributions
+
+
+## What This Project Demonstrates
+
+- Advanced parametric survival modeling in R (flexsurv)
+
+- Health technology assessment (HTA) methodology
+
+- ICER computation and payer-perspective modeling
+
+- Deterministic and probabilistic uncertainty quantification
+
+- Reproducible analytical pipelines
+
+- Clear separation between data generation, modeling, and economic evaluation steps
+
+## Technical Stack
+
+R packages used:
+
+- tidyverse
+
+- survival
+
+- flexsurv
+
+- MASS
+
 
 ##  How to Run
 
